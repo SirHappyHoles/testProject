@@ -5,6 +5,7 @@ function increaseMessage(i)
     message = message + i
 end
 
+-- This function double parameter value
 function double(val)
     val = val * 2
     return val
