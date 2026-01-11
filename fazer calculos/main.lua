@@ -13,6 +13,8 @@ function soma(soma)
     soma = n1 + n2
 
     print("O valor da soma é: " .. soma)
+
+    return soma
 end
 
 soma()
@@ -20,8 +22,8 @@ soma()
 --EXEMPLO COM VARIAVEL LOCAL
 function subtracao(subtracao)
     --Variaveis locais que pode acesado pela funcao so e nao por outra
-    n1 = 0
-    n2 = 0
+    local n1 = 0
+    local n2 = 0
     subtracao = 0
 
     print("Digite um numero: ")
